@@ -21,6 +21,7 @@ Arrays are core to Fortran, especially in scientific and numerical computing. Th
 
 ## 📂 Repository Structure
 
+``` bash
 array/
 ├── 01_declaration.f90
 ├── 02_indexing.f90
@@ -34,11 +35,9 @@ array/
 ├── 10_examples.f90
 ├── README.md
 
-markdown
-Copy
-Edit
+```
 
----
+
 
 ## 🧠 Learning Objectives
 
@@ -98,6 +97,8 @@ Edit
 ```bash
 gfortran 01_declaration.f90 -o declaration
 ./declaration
+```
+
 🧩 To Do
  Add .gitignore
 

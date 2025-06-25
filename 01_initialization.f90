@@ -3,6 +3,7 @@
 program array_initialization
     implicit none
     
+    integer :: i
     ! using array constructor
     integer, dimension(5) :: arr = (/1, 2, 3, 4, 5/)
 
